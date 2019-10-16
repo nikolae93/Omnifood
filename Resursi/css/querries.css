@@ -1,0 +1,89 @@
+
+
+
+/* Za  ipad-obrnuto */
+@media only screen and (max-width:1200px) {
+   .hero-text-box{  
+  position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+       padding: 0 2%
+}
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+
+
+
+/* Za  ipad-obrnuto */
+@media only screen and (max-width:1023px) {
+    body { font-size: 18px;}
+    section {padding: 60px 0;}
+    .btn-gh:link,
+.btn-gh:visited,
+    .btn-full1:link,
+    .btn-full1:visited{
+        padding: 8px 20px;
+        border-radius: 135px;
+    }
+}
+
+
+
+
+
+/* Za  ipad */
+@media only screen and (max-width:768px) {
+    body{
+        font-size: 14px;
+        
+    }
+    section {
+        padding: 20px 0;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 3%;
+    }
+    
+    .col {
+        width: 100%;
+    }
+    .logo{
+    height: 35px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+         }
+    .h1 {
+        font-size: 13px;
+    }
+    .anom{
+        margin-right: 7px;
+        font-size: 50%;
+        }
+    .main_nav {
+        display: none;
+    }
+    .iPhone {
+        float: left;
+        text-align: center;
+        height: 210px;
+    }
+    
+}
+
+
+
+
+/* Za male telefone */
+@media only screen and (max-width:480px) {
+    
+}
+
